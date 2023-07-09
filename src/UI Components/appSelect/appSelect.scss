@@ -1,0 +1,39 @@
+.appSelect {
+  select {
+    border-radius: 4px;
+    border: 1px solid rgba(130, 143, 163, 0.25);
+    background: #fff;
+    padding: 9px 16px;
+    display: block;
+    width: 100%;
+
+    &:focus-visible{
+        outline: none;
+    }
+
+    option{
+        color: #828fa3;
+    }
+  }
+}
+
+.appSelect-dark {
+  select {
+    border-radius: 4px;
+    border: 1px solid rgba(130, 143, 163, 0.25);
+    background: #2B2C37;
+    padding: 9px 16px;
+    display: block;
+    width: 100%;
+    color: #fff;
+
+    &:focus-visible{
+        outline: none;
+    }
+
+    option{
+        color: #828fa3;
+        background-color: #20212C;
+    }
+  }
+}

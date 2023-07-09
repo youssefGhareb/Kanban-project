@@ -1,0 +1,105 @@
+.board{
+    padding: 25px;
+    display: flex;
+    gap: 24px;
+    .list{
+        flex-basis: 20%;
+        &-title{
+            margin-bottom: 24px;
+            display: flex;
+            gap: 12px;
+            &-color{
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+            }
+
+            .color-1{
+                background-color: #49C4E5;
+            }
+
+            .color-2{
+                background-color: #8471F2;
+            }
+
+            .color-3{
+                background-color: #67E2AE;
+            }
+
+            &-text{
+                color: #828FA3;
+                font-size: 12px;
+                font-weight: 700;
+                letter-spacing: 2.4px;
+                text-transform: uppercase;
+            }
+        }
+
+        .appCard{
+            cursor: pointer;
+            background-color: #fff;
+            padding: 23px 16px;
+            box-shadow: 0px 4px 6px 0px rgba(54, 78, 126, 0.10);
+            margin-bottom: 20px;
+            border: none;
+            &-title{
+                color: #000112;
+                font-size: 15px;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+.board-dark{
+    padding: 25px;
+    display: flex;
+    gap: 24px;
+    .list{
+        flex-basis: 20%;
+        &-title{
+            margin-bottom: 24px;
+            display: flex;
+            gap: 12px;
+            &-color{
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+            }
+
+            .color-1{
+                background-color: #49C4E5;
+            }
+
+            .color-2{
+                background-color: #8471F2;
+            }
+
+            .color-3{
+                background-color: #67E2AE;
+            }
+
+            &-text{
+                color: #828FA3;
+                font-size: 12px;
+                font-weight: 700;
+                letter-spacing: 2.4px;
+                text-transform: uppercase;
+            }
+        }
+
+        .appCard{
+            cursor: pointer;
+            background-color: #2B2C37;
+            padding: 23px 16px;
+            box-shadow: 0px 4px 6px 0px rgba(54, 78, 126, 0.10);
+            margin-bottom: 20px;
+            border: none;
+            &-title{
+                color: #fff;
+                font-size: 15px;
+                font-weight: 700;
+            }
+        }
+    }
+}

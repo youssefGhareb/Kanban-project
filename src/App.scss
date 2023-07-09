@@ -1,0 +1,173 @@
+button {
+  width: 100%;
+}
+
+label {
+  display: block;
+  font-family: Plus Jakarta Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #828fa3;
+  margin-bottom: 8px;
+}
+
+.appBtn-primary-S {
+  padding: 9px 0;
+  background-color: #635fc7;
+  color: #fff;
+  text-align: center;
+  font-size: 13px;
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px;
+  border: none;
+  border-radius: 20px;
+  display: block;
+  transition: hover 0.3s ease-in-out;
+
+  &:hover{
+    background-color: #A8A4FF;
+  }
+}
+
+.appBtn-primary-L {
+  padding: 14px 0;
+  background-color: #635fc7;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px;
+  border: none;
+  border-radius: 20px;
+  display: block;
+  transition: hover 0.3s ease-in-out;
+
+  &:hover{
+    background-color: #A8A4FF;
+  }
+}
+
+.appBtn-secondary {
+  padding: 9px 0;
+  background-color: #635fc71a;
+  color: #635fc7;
+  text-align: center;
+  font-size: 13px;
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px;
+  border: none;
+  border-radius: 20px;
+  display: block;
+  transition: hover 0.3s ease-in-out;
+
+  &:hover{
+    background-color: #635FC740;
+  }
+}
+
+.appBtn-secondary-dark {
+  padding: 9px 0;
+  background-color: #fff;
+  color: #635FC7;
+  text-align: center;
+  font-size: 13px;
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 23px;
+  border: none;
+  border-radius: 20px;
+  display: block;
+  transition: hover 0.3s ease-in-out;
+
+  &:hover{
+    font-weight: 700;
+  }
+}
+
+.appBtn-destructive {
+  padding: 9px 0;
+  background-color: #ea5555;
+  color: #fff;
+  text-align: center;
+  font-size: 13px;
+  font-family: Plus Jakarta Sans;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23px;
+  border: none;
+  border-radius: 20px;
+  display: block;
+  transition: hover 0.3s ease-in-out;
+
+  &:hover{
+    background-color: #FF9898;
+  }
+}
+
+.heading-XL {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #000112;
+}
+
+.heading-L {
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: bold;
+  color: #000112;
+}
+
+.heading-M {
+  font-size: 15px;
+  line-height: 19px;
+  font-weight: bold;
+  color: #000112;
+}
+
+.heading-S {
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: bold;
+  color: #828fa3;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+}
+
+.text-L {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px;
+  color: #2b2c37;
+}
+
+.text-M {
+  font-family: Plus Jakarta Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #2b2c37;
+}
+
+.danger {
+  color: #ea5555;
+}
+
+.gray-text {
+  color: #828fa3 !important;
+}
+
+.text-white{
+  color: #fff;
+}

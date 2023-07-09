@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700&display=swap");
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: #f4f7fd;
+}
+
+.body-dark{
+  background-color: #20212C;
+}
+
+.app-popover {
+  padding: 16px;
+  background-color: #fff;
+  width: 200px;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px;
+  color: #828fa3;
+  margin-right: 20px;
+  margin-top: -30px;
+  z-index: 1000;
+  // position: fixed;
+
+  span {
+    display: block;
+    margin-bottom: 16px;
+    cursor: pointer;
+  }
+
+  .delete {
+    color: #ea5555;
+    margin-bottom: 5px;
+  }
+}
+
+.app-popover-dark {
+  padding: 16px;
+  background-color: #20212C;
+  width: 200px;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px;
+  color: #828fa3;
+  margin-right: 20px;
+  margin-top: -30px;
+  z-index: 1000;
+  // position: fixed;
+
+  span {
+    display: block;
+    margin-bottom: 16px;
+    cursor: pointer;
+  }
+
+  .delete {
+    color: #ea5555;
+    margin-bottom: 5px;
+  }
+}
+
+.modal-app-popover {
+  padding: 16px;
+  background-color: #fff;
+  width: 200px;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px;
+  color: #828fa3;
+  left: 20px;
+  /* margin-top: -160px; */
+  z-index: 1000;
+  position: fixed;
+
+  span {
+    display: block;
+    margin-bottom: 16px;
+    cursor: pointer;
+  }
+
+  .delete {
+    color: #ea5555;
+    margin-bottom: 5px;
+  }
+}
+
+.modal-app-popover-dark {
+  padding: 16px;
+  background-color: #20212C;
+  width: 200px;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 23px;
+  color: #828fa3;
+  left: 20px;
+  /* margin-top: -160px; */
+  z-index: 1000;
+  position: fixed;
+
+  span {
+    display: block;
+    margin-bottom: 16px;
+    cursor: pointer;
+  }
+
+  .delete {
+    color: #ea5555;
+    margin-bottom: 5px;
+  }
+}

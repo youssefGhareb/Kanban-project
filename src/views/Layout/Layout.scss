@@ -1,0 +1,61 @@
+.Layout {
+  .sidebarOpen {
+    position: fixed;
+    height: 48px;
+    width: 56px;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    top: 75%;
+    background-color: #635fc7;
+    cursor: pointer;
+
+    img {
+      width: 17px;
+      margin-right: 5px;
+    }
+    &:hover{
+      background-color: #A8A4FF;
+    }
+  }
+
+  .main {
+    // margin-left: 300px;
+    margin-top: 90px;
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+.Layout-dark {
+   background-color: #20212C;
+  .sidebarOpen {
+    position: fixed;
+    height: 48px;
+    width: 56px;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    top: 75%;
+    background-color: #635fc7;
+    cursor: pointer;
+
+    img {
+      width: 17px;
+      margin-right: 5px;
+    }
+    &:hover{
+      background-color: #A8A4FF;
+    }
+  }
+
+  .main {
+    // margin-left: 300px;
+    margin-top: 90px;
+    transition: all 0.3s ease-in-out;
+  }
+}
+

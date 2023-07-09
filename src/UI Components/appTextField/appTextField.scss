@@ -1,0 +1,83 @@
+.appTextField {
+  position: relative;
+  input {
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid rgba(130, 143, 163, 0.25);
+    background-color: #fff;
+    color: #000112;
+    padding: 8px 16px;
+
+    &:focus-visible {
+      outline: none;
+    }
+  }
+
+  textarea {
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid rgba(130, 143, 163, 0.25);
+    background-color: #fff;
+    color: #000112;
+    padding: 8px 16px;
+
+    &:focus-visible {
+      outline: none;
+    }
+  }
+
+  span {
+    position: absolute;
+    left: 90%;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  ::placeholder {
+    color: #00011225;
+  }
+}
+
+.appTextField-dark {
+  position: relative;
+  input {
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid rgba(130, 143, 163, 0.25);
+    background-color: #2b2c37;
+    color: #fff;
+    padding: 8px 16px;
+
+    &:focus-visible {
+      outline: none;
+    }
+  }
+
+  textarea {
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid rgba(130, 143, 163, 0.25);
+    background-color: #2b2c37;
+    color: #fff;
+    padding: 8px 16px;
+
+    &:focus-visible {
+      outline: none;
+    }
+  }
+
+  span {
+    position: absolute;
+    left: 90%;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  ::placeholder {
+    color: #ffffff3f;
+  }
+}
